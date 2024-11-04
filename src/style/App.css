@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'GumiRomanceTTF';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/GumiRomanceTTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'GumiRomanceTTF';
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+.Blog {
+    height: calc(100vh - 200px);
+}
+
+#BlogWrap {
+    width: 1320px;
+    margin: 70px auto;
+}
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+    border-radius: 0px 0px 40px 40px;
+    background-color: crimson;
+    color: white;
+    height: 120px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #f8fafc;
+    color: gray;
+}
+
+
+.title {
+  width: 500px;
+  margin-bottom: 20px;
+  color: crimson;
+  border-radius: 10px;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+input, textarea {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: 0.35s;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid crimson;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+button:hover {
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: gold;
+}
+
+#itemWrap {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.items {
+  width: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 3px solid transparent;
+  transition: 0.35s;
+  color: #121212;
+}
+
+.items:hover {
+  cursor: pointer;
+  border: 3px solid crimson;
+}
